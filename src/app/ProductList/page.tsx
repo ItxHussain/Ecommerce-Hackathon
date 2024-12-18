@@ -35,7 +35,7 @@ export default function ProductList () {
     return (
         <div className={montserrat.className}>
             <TopFooter color="bg-[#23856D]"/>
-            <Navbar left="left-[160px]" Marginleft="ml-44" itemml="ml-40"/>
+            <Navbar left="left-[180px]" Marginleft="ml-44" itemml="ml-40"/>
 
             <div className="w-[1577px] h-[92px] py-6 bg-[#FAFAFA] flex items-center mt-24">
                 <div className="w-[1049px] h-[44px] gap-[30px] flex items-center justify-evenly">

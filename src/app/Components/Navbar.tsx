@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 
@@ -54,7 +55,7 @@ export default function Navbar (props: Left1) {
                                     </MenuItems>
                                 </Menu>
 
-                                <li className="text-[#737373] font-bold text-sm leading-6 text-center tracking-[0.2px] w-[45px] h-[24px]">About</li>
+                                <a href='/About' className="text-[#737373] font-bold text-sm leading-6 text-center tracking-[0.2px] w-[45px] h-[24px]">About</a>
                                 <li className="text-[#737373] font-bold text-sm leading-6 text-center tracking-[0.2px] w-[33px] h-[24px]">Blog</li>
                                 <li className="text-[#737373] font-bold text-sm leading-6 text-center tracking-[0.2px] w-[58px] h-[24px]">Contact</li>
                                 <li className="text-[#737373] font-bold text-sm leading-6 text-center tracking-[0.2px] w-[44px] h-[24px]">Pages</li>

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import {Montserrat} from "next/font/google"
 interface BestSellerProd {
-    image: any;     
+    image: any ;     
     title : string; // Set height type to number
 }
 
